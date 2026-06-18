@@ -1,0 +1,159 @@
+/* TÍTULO */
+.titulo-seccion {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.titulo-lateral {
+    background-color: #c9b3f0;
+    display: block;
+    padding: 22px 30px;
+    text-align: center;
+}
+.titulo-lateral h1 {
+    color: white;
+    font-size: 52px;
+}
+.titulo-lateral p {
+    color: rgba(255,255,255,0.85);
+    font-size: 16px;
+    margin-top: 6px;
+}
+ 
+/* DESTACADO ANCHO */
+.destacado-tendencias {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.destacado-tendencias h2 {
+    color: #6d5ab3;
+    margin-bottom: 16px;
+}
+.destacado-inner {
+    display: flex;
+    gap: 24px;
+}
+.destacado-inner img {
+    width: 48%;
+    height: 280px;
+    object-fit: cover;
+}
+.destacado-texto {
+    flex: 1;
+}
+.destacado-texto h3 {
+    background-color: #c9b3f0;
+    color: white;
+    width: 110px;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.destacado-texto h1 {
+    font-size: 26px;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+.destacado-texto p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.6;
+}
+ 
+/* RANKING */
+.ranking {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.ranking h2 {
+    font-size: 28px;
+    color: #6d5ab3;
+    margin-bottom: 20px;
+}
+.ranking-item {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-left: 5px solid #c9b3f0;
+}
+.numero {
+    font-size: 36px;
+    font-weight: 900;
+    color: #c9b3f0;
+    width: 40px;
+    flex-shrink: 0;
+}
+.ranking-item img {
+    width: 70px;
+    height: 60px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.ranking-texto h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.ranking-texto p {
+    font-size: 12px;
+    color: #aaa;
+}
+ 
+/* ÚLTIMAS NOTICIAS */
+.ultimas {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ultimas h2 {
+    color: #6d5ab3;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fila-top {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.fila-top .card-grande {
+    width: 50%;
+}
+.fila-top .card-grande img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.fila-top .card-chica {
+    width: 25%;
+}
+.fila-top .card-chica img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.card h3 {
+    color: #c9b3f0;
+    margin-top: 10px;
+}
+ 
+/* VER MÁS */
+.ver-mas {
+    text-align: right;
+}
+.ver-mas a {
+    background-color: #c9b3f0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 16px;
+}

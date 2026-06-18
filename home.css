@@ -1,0 +1,192 @@
+/* LAYOUT ESTILO VOGUE */
+.vogue-layout {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+ 
+/* columna izquierda */
+.vogue-izq {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.vogue-mini {
+    background-color: white;
+    padding: 16px;
+}
+.vogue-mini-img {
+    background-color: white;
+    padding: 16px;
+}
+.vogue-mini-img img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.vogue-mini h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.vogue-mini-img h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.vogue-mini p, .vogue-mini-img p {
+    font-size: 12px;
+    color: gray;
+}
+ 
+/* centro */
+.vogue-centro {
+    width: 46%;
+    background-color: white;
+    padding: 0;
+}
+.vogue-centro img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+.vogue-centro span {
+    display: block;
+    margin: 14px 16px 6px;
+}
+.vogue-centro h2 {
+    font-size: 24px;
+    margin: 0 16px 10px;
+}
+.vogue-centro p {
+    font-size: 15px;
+    color: gray;
+    margin: 0 16px 16px;
+}
+ 
+/* columna derecha */
+.vogue-der {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.vogue-mini-der {
+    background-color: white;
+    padding: 14px;
+}
+.vogue-mini-der img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+.vogue-mini-der h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.vogue-mini-der p {
+    font-size: 11px;
+    color: gray;
+}
+ 
+/* CATEGORÍAS COLOREADAS */
+.vogue-categoria {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.musica-cat    { color: #e8267a; }
+.moda-cat      { color: #f0a0c0; }
+.cine-cat      { color: #4a3a9e; }
+.tendencias-cat { color: #c9b3f0; }
+ 
+/* FILAS DE SECCIONES */
+.fila-seccion {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.fila-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid currentColor;
+}
+.fila-header h2 {
+    font-size: 28px;
+}
+.fila-header a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.fila-cards {
+    display: flex;
+    gap: 15px;
+}
+.fila-cards .card {
+    width: 25%;
+}
+.fila-cards .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+ 
+/* MÚSICA */
+.musica-seccion {
+    background-color: #fde8f2;
+    border-left: 6px solid #e8267a;
+}
+.musica-seccion .fila-header {
+    color: #e8267a;
+    border-bottom-color: #e8267a;
+}
+.musica-seccion .fila-header a { color: #e8267a; }
+.musica-seccion .card h3 { color: #e8267a; }
+ 
+/* MODA */
+.moda-seccion {
+    background-color: #fdf0f6;
+    border-left: 6px solid #f0a0c0;
+}
+.moda-seccion .fila-header {
+    color: #f0a0c0;
+    border-bottom-color: #f0a0c0;
+}
+.moda-seccion .fila-header a { color: #f0a0c0; }
+.moda-seccion .card h3 { color: #f0a0c0; }
+ 
+/* CINE */
+.cine-seccion {
+    background-color: #eae8f8;
+    border-left: 6px solid #4a3a9e;
+}
+.cine-seccion .fila-header {
+    color: #4a3a9e;
+    border-bottom-color: #4a3a9e;
+}
+.cine-seccion .fila-header a { color: #4a3a9e; }
+.cine-seccion .card h3 { color: #4a3a9e; }
+ 
+/* TENDENCIAS */
+.tendencias-seccion {
+    background-color: #f4f0fd;
+    border-left: 6px solid #c9b3f0;
+}
+.tendencias-seccion .fila-header {
+    color: #c9b3f0;
+    border-bottom-color: #c9b3f0;
+}
+.tendencias-seccion .fila-header a { color: #c9b3f0; }
+.tendencias-seccion .card h3 { color: #c9b3f0; }

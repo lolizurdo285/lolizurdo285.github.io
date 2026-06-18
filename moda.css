@@ -1,0 +1,141 @@
+/* TÍTULO */
+.titulo-seccion {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.titulo-lateral {
+    background-color: #f0a0c0;
+    display: block;
+    padding: 22px 30px;
+    text-align: center;
+}
+.titulo-lateral h1 {
+    color: white;
+    font-size: 52px;
+}
+.titulo-lateral p {
+    color: rgba(255,255,255,0.85);
+    font-size: 16px;
+    margin-top: 6px;
+}
+/* OVERRIDE: destacado en bloque */
+.noticia-principal {
+    display: block;
+}
+.noticia-principal > img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+.noticia-principal .texto-principal {
+    width: 100%;
+    background-color: #f0a0c0;
+    padding: 18px 20px;
+}
+.noticia-principal .texto-principal h3 {
+    background-color: transparent;
+    color: white;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.noticia-principal .texto-principal h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.noticia-principal .texto-principal p {
+    color: rgba(255,255,255,0.9);
+    font-size: 16px;
+}
+/* PUBLICIDAD */
+.publicidad {
+    margin-top: 25px;
+    text-align: center;
+}
+.pub-label {
+    font-size: 11px;
+    color: #aaa;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pub-banner {
+    background-color: #f0a0c0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pub-banner p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* TABS */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.tab {
+    background-color: white;
+    border: 2px solid #f0a0c0;
+    color: #f0a0c0;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tab.activo {
+    background-color: #f0a0c0;
+    color: white;
+}
+/* ÚLTIMAS NOTICIAS */
+.ultimas {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ultimas h2 {
+    color: #f0a0c0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fila-top {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.fila-top .card-grande {
+    width: 50%;
+}
+.fila-top .card-grande img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.fila-top .card-chica {
+    width: 25%;
+}
+.fila-top .card-chica img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.fila-bottom {
+    display: flex;
+    gap: 15px;
+}
+.fila-bottom .card {
+    width: 33.33%;
+}
+.fila-bottom .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}

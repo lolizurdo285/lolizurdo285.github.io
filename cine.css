@@ -1,0 +1,126 @@
+/* TÍTULO */
+.titulo-seccion {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.titulo-lateral {
+    background-color: #6d5ab3;
+    display: block;
+    padding: 22px 30px;
+    text-align: center;
+}
+.titulo-lateral h1 {
+    color: #f3cf21;
+    font-size: 52px;
+}
+.titulo-lateral p {
+    color: white;
+    font-size: 16px;
+    margin-top: 6px;
+}
+/* OVERRIDE: destacado en bloque igual que musica */
+.noticia-principal {
+    display: block;
+}
+.noticia-principal > img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+.noticia-principal .texto-principal {
+    width: 100%;
+    background-color: #6d5ab3;
+    padding: 18px 20px;
+}
+.noticia-principal .texto-principal h3 {
+    background-color: transparent;
+    color: #f3cf21;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.noticia-principal .texto-principal h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.noticia-principal .texto-principal p {
+    color: white;
+    font-size: 16px;
+}
+/* PUBLICIDAD dentro del trending */
+.publicidad {
+    margin-top: 25px;
+    text-align: center;
+}
+.pub-label {
+    font-size: 11px;
+    color: #aaa;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.pub-banner {
+    background-color: #6d5ab3;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pub-banner p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* ÚLTIMAS NOTICIAS */
+.ultimas {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ultimas h2 {
+    color: #6d5ab3;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/* fila superior */
+.fila-top {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.fila-top .card-grande {
+    width: 50%;
+}
+.fila-top .card-grande img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.fila-top .card-chica {
+    width: 25%;
+}
+.fila-top .card-chica img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/* fila inferior */
+.fila-bottom {
+    display: flex;
+    gap: 15px;
+}
+.fila-bottom .card {
+    width: 33.33%;
+}
+.fila-bottom .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+ 
